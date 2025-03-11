@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "lexend-deca";
+  src: url(/assets/fonts/LexendDeca-Regular.ttf);
+}
+@theme {
+  --color-Bright-orange: hsl(31, 77%, 52%);
+  --color-Dark-cyan: hsl(184, 100%, 22%);
+  --color-Very-dark-cyan: hsl(179, 100%, 13%);
+  --color-Very-light: hsl(0, 0%, 95%);
+  ---color-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --font-lexend-deca: "lexend-deca", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
